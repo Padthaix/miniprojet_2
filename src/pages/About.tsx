@@ -7,14 +7,14 @@ const members = [
     nickname: 'โฮป',
     studentId: '1660701705',
     role: 'พัฒนาเว็บไซต์',
-    photo: '/team/hope.jpg',
+    photo: `${import.meta.env.BASE_URL}team/hope.jpg`,
   },
   {
     name: 'วรพิณ ทองที',
     nickname: 'เบส',
     studentId: '1660702943',
     role: 'ออกแบบและช่วยคิดไอเดีย',
-    photo: '/team/bas.jpg',
+    photo: `${import.meta.env.BASE_URL}team/bas.jpg`,
   },
 ]
 const sources = [

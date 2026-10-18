@@ -6,7 +6,7 @@ import { queryClient } from './lib/queries'
 import { routes } from './App'
 import './index.css'
 
-const router = createBrowserRouter(routes)
+const router = createBrowserRouter(routes, { basename: import.meta.env.BASE_URL })
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
